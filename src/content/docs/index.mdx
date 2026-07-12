@@ -15,24 +15,41 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
-
 ## 學習路徑
 
-<CardGrid>
-  <Card title="第1課:作者的交易之路" icon="open-book">
-    作者的交易之路:從精神科醫師到職業交易者,他學到的第一課。
-  </Card>
-  <Card title="金融叢林新手交易指南(第2課–第4課)" icon="magnifier">
-    「投資、交易,或賭博」、「你要在哪個市場交易」、「交易前的第一步」。
-  </Card>
-  <Card title="交易成功的三要素(3M)(第5課–第11課)" icon="pencil">
-    「自律的交易者」、「技術分析(上):基本圖形判讀」、「技術分析(下):精選技術指標」 等 7 個主題。
-  </Card>
-  <Card title="走進我的交易室(第12課–第14課)" icon="rocket">
-    「有條理的交易者」、「以交易為生」、「走進我的交易室」。
-  </Card>
-</CardGrid>
+<div class="path-grid">
+  <div class="path-card">
+    <div class="path-num">PART 1</div>
+    <div class="path-title">金融叢林新手交易指南</div>
+    <ul class="path-links">
+    <li><a href="/come-into-my-trading-room/unit01/">投資、交易,或賭博</a></li>
+    <li><a href="/come-into-my-trading-room/unit02/">你要在哪個市場交易</a></li>
+    <li><a href="/come-into-my-trading-room/unit03/">交易前的第一步</a></li>
+    </ul>
+  </div>
+  <div class="path-card">
+    <div class="path-num">PART 2</div>
+    <div class="path-title">交易成功的三要素(3M)</div>
+    <ul class="path-links">
+    <li><a href="/come-into-my-trading-room/unit04/">自律的交易者</a></li>
+    <li><a href="/come-into-my-trading-room/unit05/">技術分析(上):基本圖形判讀</a></li>
+    <li><a href="/come-into-my-trading-room/unit06/">技術分析(下):精選技術指標</a></li>
+    <li><a href="/come-into-my-trading-room/unit07/">交易系統(上):系統測試與三重濾網</a></li>
+    <li><a href="/come-into-my-trading-room/unit08/">交易系統(中):脈衝交易與市場晴雨表</a></li>
+    <li><a href="/come-into-my-trading-room/unit09/">交易系統(下):選擇你的交易品種</a></li>
+    <li><a href="/come-into-my-trading-room/unit10/">資金管理公式</a></li>
+    </ul>
+  </div>
+  <div class="path-card">
+    <div class="path-num">PART 3</div>
+    <div class="path-title">走進我的交易室</div>
+    <ul class="path-links">
+    <li><a href="/come-into-my-trading-room/unit11/">有條理的交易者</a></li>
+    <li><a href="/come-into-my-trading-room/unit12/">以交易為生</a></li>
+    <li><a href="/come-into-my-trading-room/unit13/">走進我的交易室</a></li>
+    </ul>
+  </div>
+</div>
 
 <h2 class="learn-title">你會學到什麼</h2>
 <p class="learn-sub">掌握這 8 個關鍵概念,就掌握了《走進我的交易室》的骨架。</p>
