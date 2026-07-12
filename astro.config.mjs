@@ -18,6 +18,7 @@ export default defineConfig({
       lastUpdated: false,
       pagination: true,
       sidebar: [
+        { label: ':作者的交易之路', slug: 'unit00' },
         {
           label: '金融叢林新手交易指南',
           items: [
